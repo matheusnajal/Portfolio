@@ -8,7 +8,7 @@ export const myProjects = [
       "Durante um ano eu estudei a base matemática complexa para chegar aos resultados apresentados e fazer a comparação entre engines e motores de física.",
       "Essa é uma pesquisa teórica e prática sobre corpos deformáveis."
     ],
-    href: "https://github.com/matheusnajal/Depths-of-the-Mind",
+    href: "https://github.com/matheusnajal/TCC",
     logo: "",
     image: `${import.meta.env.BASE_URL}/assets/projects/TCC.png`,
     tags: [
