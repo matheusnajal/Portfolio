@@ -14,7 +14,7 @@ const About = () => {
         {/* Grid */}
         <div className="flex items-end grid-default-color grid-1">
           <img
-            src="assets/coding-pov.png"
+            src={`${import.meta.env.BASE_URL}assets/coding-pov.png`}
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
@@ -103,7 +103,7 @@ const About = () => {
         {/* Grid5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Teck Stack</p>
+            <p className="headtext">Tech Stack</p>
             <p className="subtext">
               Minha especialização abrange python (com suas diversas bibliotecas), C++, Godot Engine e Unity, permitindo-me construir soluções gráficas e algoritmos inteligentes.
             </p>

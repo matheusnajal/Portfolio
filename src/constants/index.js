@@ -10,32 +10,32 @@ export const myProjects = [
     ],
     href: "https://github.com/matheusnajal/Depths-of-the-Mind",
     logo: "",
-    image: "/assets/projects/TCC.png",
+    image: `${import.meta.env.BASE_URL}/assets/projects/TCC.png`,
     tags: [
       {
         id: 1,
         name: "Godot",
-        path: "/assets/logos/godot.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/godot.svg`,
       },
       {
         id: 2,
         name: "Unity",
-        path: "/assets/logos/unity.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/unity.svg`,
       },
       {
         id: 3,
         name: "Unreal Engine",
-        path: "/assets/logos/Unreal Engine.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/UnrealEngine.svg`,
       },
       {
         id: 4,
         name: "PhysX",
-        path: "/assets/logos/PhysX.png",
+        path: `${import.meta.env.BASE_URL}/assets/logos/PhysX.png`,
       },
       {
         id: 5,
         name: "Bullet Physics",
-        path: "/assets/logos/bullet.png",
+        path: `${import.meta.env.BASE_URL}/assets/logos/bullet.png`,
       },
     ],
   },
@@ -50,12 +50,12 @@ export const myProjects = [
     ],
     href: "https://github.com/matheusnajal/Depths-of-the-Mind",
     logo: "",
-    image: "/assets/projects/Depths of the mind.png",
+    image: `${import.meta.env.BASE_URL}/assets/projects/Depths_of_the_mind.png`,
     tags: [
       {
         id: 1,
         name: "Godot",
-        path: "/assets/logos/godot.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/godot.svg`,
       },
     ],
   },
@@ -69,27 +69,27 @@ export const myProjects = [
     ],
     href: "https://github.com/matheusnajal/Dashboard-Streamlit",
     logo: "",
-    image: "/assets/projects/Dashboard-Streamlit.png",
+    image: `${import.meta.env.BASE_URL}/assets/projects/Dashboard-Streamlit.png`,
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/python.svg`,
       },
       {
         id: 2,
         name: "Streamlit",
-        path: "/assets/logos/Streamlit.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/Streamlit.svg`,
       },
       {
         id: 3,
         name: "Pandas",
-        path: "/assets/logos/pandas.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/pandas.svg`,
       },
                   {
         id: 4,
         name: "Plotly",
-        path: "/assets/logos/Ploty.svg",
+        path: `${import.meta.env.BASE_URL}/assets/logos/Ploty.svg`,
       },
     ],
   },
@@ -101,17 +101,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "https://wa.me/+5585991202020",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: `${import.meta.env.BASE_URL}assets/socials/whatsApp.svg`,
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/matheus-najal-cruz/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: `${import.meta.env.BASE_URL}assets/socials/linkedIn.svg`,
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/matheusnajal/",
-    icon: "/assets/socials/instagram.svg",
+    icon: `${import.meta.env.BASE_URL}assets/socials/instagram.svg`,
   },
 ];
 

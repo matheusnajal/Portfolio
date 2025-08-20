@@ -1,5 +1,12 @@
 import { motion, useScroll, useSpring, useTransform } from "motion/react";
 
+// 1. Importe todas as imagens que você vai usar no topo do arquivo
+import skyImg from "/assets/sky.jpg";
+import mountain3Img from "/assets/mountain-3.png";
+import planetsImg from "/assets/planets.png";
+import mountain2Img from "/assets/mountain-2.png";
+import mountain1Img from "/assets/mountain-1.png";
+
 const ParallaxBackground = () => {
   const { scrollYProgress } = useScroll();
   const x = useSpring(scrollYProgress, { damping: 50 });
@@ -15,7 +22,8 @@ const ParallaxBackground = () => {
         <div
           className="absolute inset-0 w-full h-screen -z-50"
           style={{
-            backgroundImage: "url(/assets/sky.jpg)",
+            // 2. Use a variável importada dentro da URL
+            backgroundImage: `url(${skyImg})`,
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -24,7 +32,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-40"
           style={{
-            backgroundImage: "url(/assets/mountain-3.png)",
+            backgroundImage: `url(${mountain3Img})`,
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain3Y,
@@ -34,7 +42,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-30"
           style={{
-            backgroundImage: "url(/assets/planets.png)",
+            backgroundImage: `url(${planetsImg})`,
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: planetsX,
@@ -44,7 +52,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-20"
           style={{
-            backgroundImage: "url(/assets/mountain-2.png)",
+            backgroundImage: `url(${mountain2Img})`,
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,
@@ -54,7 +62,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-10"
           style={{
-            backgroundImage: "url(/assets/mountain-1.png)",
+            backgroundImage: `url(${mountain1Img})`,
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain1Y,
